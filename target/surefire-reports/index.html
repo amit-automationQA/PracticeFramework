@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Practice_Framework" class="navigator-link">
+              <span class="suite-name border-passed">Practice Framework</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Practice_Framework" class="navigator-link ">
+                    <span>C:\Users\Akundar\eclipse-workspace\PracticeFramework\src\test\resources\runners\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Practice_Framework" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Practice_Framework" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Practice_Framework" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Practice_Framework" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Practice_Framework" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Practice_Framework" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Practice_Framework" class="hide-methods passed suite-Practice_Framework"> (hide)</a> <!-- hide-methods passed suite-Practice_Framework -->
+                      <a href="#" panel-name="suite-Practice_Framework" class="show-methods passed suite-Practice_Framework"> (show)</a> <!-- show-methods passed suite-Practice_Framework -->
+                    </span>
+                    <div class="method-list-content passed suite-Practice_Framework">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_Framework" title="com.w2a.testcases.AddCustomerTest" class="method navigator-link" hash-for-method="addCustomer({alerttext=Customer added successfully, postcode=A23wd, Runmode=Y, lastname=Arora, firstname=Raman})">addCustomer({alerttext=Customer added successfully, postcode=A23wd, Runmode=Y, lastname=Arora, firstname=Raman})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_Framework" title="com.w2a.testcases.AddCustomerTest" class="method navigator-link" hash-for-method="addCustomer({alerttext=Customer added successfully, postcode=A23er, Runmode=Y, lastname=Test, firstname=Amit})">addCustomer({alerttext=Customer added successfully, postcode=A23er, Runmode=Y, lastname=Test, firstname=Amit})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_Framework" title="com.w2a.testcases.BankManagerLoginTest" class="method navigator-link" hash-for-method="loginAsBankManager">loginAsBankManager</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_Framework" title="com.w2a.testcases.OpenAccountTest" class="method navigator-link" hash-for-method="verifyOpenAccount({currency=Dollar, customer=Amit Test})">verifyOpenAccount({currency=Dollar, customer=Amit Test})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice_Framework" title="com.w2a.testcases.OpenAccountTest" class="method navigator-link" hash-for-method="verifyOpenAccount({currency=Rupee, customer=Raman Arora})">verifyOpenAccount({currency=Rupee, customer=Raman Arora})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Practice_Framework -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Practice_Framework" class="panel Practice_Framework">
+          <div class="suite-Practice_Framework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.w2a.testcases.AddCustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomer({alerttext=Customer added successfully, postcode=A23wd, Runmode=Y, lastname=Arora, firstname=Raman})">
+                  </a> <!-- addCustomer({alerttext=Customer added successfully, postcode=A23wd, Runmode=Y, lastname=Arora, firstname=Raman}) -->
+                  <span class="method-name">addCustomer</span>
+                  <span class="parameters">({alerttext=Customer added successfully, postcode=A23wd, Runmode=Y, lastname=Arora, firstname=Raman})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomer({alerttext=Customer added successfully, postcode=A23er, Runmode=Y, lastname=Test, firstname=Amit})">
+                  </a> <!-- addCustomer({alerttext=Customer added successfully, postcode=A23er, Runmode=Y, lastname=Test, firstname=Amit}) -->
+                  <span class="method-name">addCustomer</span>
+                  <span class="parameters">({alerttext=Customer added successfully, postcode=A23er, Runmode=Y, lastname=Test, firstname=Amit})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Practice_Framework-class-passed -->
+          <div class="suite-Practice_Framework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.w2a.testcases.OpenAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOpenAccount({currency=Dollar, customer=Amit Test})">
+                  </a> <!-- verifyOpenAccount({currency=Dollar, customer=Amit Test}) -->
+                  <span class="method-name">verifyOpenAccount</span>
+                  <span class="parameters">({currency=Dollar, customer=Amit Test})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOpenAccount({currency=Rupee, customer=Raman Arora})">
+                  </a> <!-- verifyOpenAccount({currency=Rupee, customer=Raman Arora}) -->
+                  <span class="method-name">verifyOpenAccount</span>
+                  <span class="parameters">({currency=Rupee, customer=Raman Arora})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Practice_Framework-class-passed -->
+          <div class="suite-Practice_Framework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.w2a.testcases.BankManagerLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAsBankManager">
+                  </a> <!-- loginAsBankManager -->
+                  <span class="method-name">loginAsBankManager</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Practice_Framework-class-passed -->
+        </div> <!-- panel Practice_Framework -->
+        <div panel-name="test-xml-Practice_Framework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Akundar\eclipse-workspace\PracticeFramework\src\test\resources\runners\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Practice Framework&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.w2a.listeners.CustomeListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.w2a.testcases.BankManagerLoginTest&quot;/&gt;
+      &lt;class name=&quot;com.w2a.testcases.AddCustomerTest&quot;/&gt;
+      &lt;class name=&quot;com.w2a.testcases.OpenAccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Practice Framework --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Practice_Framework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Practice Framework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Practice_Framework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Practice Framework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Practice_Framework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Practice Framework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Practice_Framework');
+function tableData_Practice_Framework() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addCustomer')
+data.setCell(0, 2, 'com.w2a.testcases.AddCustomerTest')
+data.setCell(0, 3, 384);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyOpenAccount')
+data.setCell(1, 2, 'com.w2a.testcases.OpenAccountTest')
+data.setCell(1, 3, 383);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addCustomer')
+data.setCell(2, 2, 'com.w2a.testcases.AddCustomerTest')
+data.setCell(2, 3, 249);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyOpenAccount')
+data.setCell(3, 2, 'com.w2a.testcases.OpenAccountTest')
+data.setCell(3, 3, 241);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginAsBankManager')
+data.setCell(4, 2, 'com.w2a.testcases.BankManagerLoginTest')
+data.setCell(4, 3, 119);
+window.suiteTableData['Practice_Framework']= { tableData: data, tableDiv: 'times-div-Practice_Framework'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-Practice_Framework">
+              </div> <!-- times-div-Practice_Framework -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Practice_Framework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Practice Framework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Practice_Framework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.w2a.testcases.OpenAccountTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.w2a.testcases.AddCustomerTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Practice_Framework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.w2a.testcases.BankManagerLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">loginAsBankManager</span>
+                <span class="method-start">2728 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.w2a.testcases.AddCustomerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addCustomer({alerttext=Customer added successfully, postcode=A23wd, Runmode=Y, lastname=Arora, firstname=Raman})</span>
+                <span class="method-start">2857 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addCustomer({alerttext=Customer added successfully, postcode=A23er, Runmode=Y, lastname=Test, firstname=Amit})</span>
+                <span class="method-start">3242 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.w2a.testcases.OpenAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyOpenAccount({currency=Rupee, customer=Raman Arora})</span>
+                <span class="method-start">3493 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyOpenAccount({currency=Dollar, customer=Amit Test})</span>
+                <span class="method-start">3877 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.w2a.testcases.BankManagerLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4451 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

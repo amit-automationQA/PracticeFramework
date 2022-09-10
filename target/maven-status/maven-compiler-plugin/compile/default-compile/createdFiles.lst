@@ -1,0 +1,11 @@
+com\w2a\utilities\TestConfig.class
+com\w2a\pages\BankManagerLogin.class
+com\w2a\pages\AddCustomer.class
+com\w2a\utilities\MonitoringMail$SMTPAuthenticator.class
+com\w2a\utilities\MonitoringMail$1.class
+com\w2a\utilities\ExtentManager.class
+com\w2a\utilities\TestUtil.class
+com\w2a\utilities\ExcelReader.class
+com\w2a\utilities\MonitoringMail.class
+com\w2a\pages\OpenAccount.class
+com\w2a\base\TestBase.class

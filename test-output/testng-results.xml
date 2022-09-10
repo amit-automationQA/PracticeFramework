@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="15" passed="0" failed="0" skipped="5">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-08T13:54:30Z" name="Default suite" finished-at="2022-09-08T13:54:30Z" duration-ms="36">
+    <groups>
+    </groups>
+    <test started-at="2022-09-08T13:54:30Z" name="Default test" finished-at="2022-09-08T13:54:30Z" duration-ms="36">
+      <class name="com.w2a.testcases.AddCustomerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w2a.testcases.AddCustomerTest@30404dba]" started-at="2022-09-08T19:24:30Z" name="setUp" finished-at="2022-09-08T19:24:30Z" duration-ms="499" status="FAIL">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA['com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: 'com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'
+	at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:98)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:49)
+	at com.w2a.base.TestBase.setUp(TestBase.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addCustomer(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@30404dba]" started-at="2022-09-08T19:24:30Z" name="addCustomer" data-provider="dp" finished-at="2022-09-08T19:24:30Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA['com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: 'com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'
+	at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:98)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:49)
+	at com.w2a.base.TestBase.setUp(TestBase.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@30404dba]" started-at="2022-09-08T19:24:30Z" name="addCustomer" data-provider="dp" finished-at="2022-09-08T19:24:30Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA['com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: 'com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'
+	at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:98)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:49)
+	at com.w2a.base.TestBase.setUp(TestBase.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w2a.testcases.AddCustomerTest@30404dba]" started-at="2022-09-08T19:24:30Z" name="tearDown" finished-at="2022-09-08T19:24:30Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.testcases.AddCustomerTest -->
+      <class name="com.w2a.testcases.BankManagerLoginTest">
+        <test-method signature="loginAsBankManager()[pri:0, instance:com.w2a.testcases.BankManagerLoginTest@4c0884e8]" started-at="2022-09-08T19:24:30Z" name="loginAsBankManager" finished-at="2022-09-08T19:24:30Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA['com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: 'com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'
+	at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:98)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:49)
+	at com.w2a.base.TestBase.setUp(TestBase.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- com.w2a.testcases.BankManagerLoginTest -->
+      <class name="com.w2a.testcases.OpenAccountTest">
+        <test-method signature="verifyOpenAccount(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.OpenAccountTest@6050462a]" started-at="2022-09-08T19:24:30Z" name="verifyOpenAccount" data-provider="dp" finished-at="2022-09-08T19:24:30Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA['com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: 'com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'
+	at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:98)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:49)
+	at com.w2a.base.TestBase.setUp(TestBase.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenAccount -->
+        <test-method signature="verifyOpenAccount(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.OpenAccountTest@6050462a]" started-at="2022-09-08T19:24:30Z" name="verifyOpenAccount" data-provider="dp" finished-at="2022-09-08T19:24:30Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA['com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: 'com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'
+	at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:98)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:49)
+	at com.w2a.base.TestBase.setUp(TestBase.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenAccount -->
+      </class> <!-- com.w2a.testcases.OpenAccountTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

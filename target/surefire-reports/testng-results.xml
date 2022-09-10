@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="9" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-10T17:53:50 IST" name="Practice Framework" finished-at="2022-09-10T17:53:51 IST" duration-ms="1413">
+    <groups>
+    </groups>
+    <test started-at="2022-09-10T17:53:50 IST" name="Test" finished-at="2022-09-10T17:53:51 IST" duration-ms="1413">
+      <class name="com.w2a.testcases.AddCustomerTest">
+        <test-method signature="addCustomer(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@28d79cba]" started-at="2022-09-10T17:53:50 IST" name="addCustomer" data-provider="dp" finished-at="2022-09-10T17:53:50 IST" duration-ms="384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=A23wd, Runmode=Y, lastname=Arora, firstname=Raman}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@28d79cba]" started-at="2022-09-10T17:53:50 IST" name="addCustomer" data-provider="dp" finished-at="2022-09-10T17:53:51 IST" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=A23er, Runmode=Y, lastname=Test, firstname=Amit}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+      </class> <!-- com.w2a.testcases.AddCustomerTest -->
+      <class name="com.w2a.testcases.BankManagerLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w2a.testcases.BankManagerLoginTest@22d9c961]" started-at="2022-09-10T17:53:47 IST" name="setUp" finished-at="2022-09-10T17:53:50 IST" duration-ms="2704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginAsBankManager()[pri:0, instance:com.w2a.testcases.BankManagerLoginTest@22d9c961]" started-at="2022-09-10T17:53:50 IST" name="loginAsBankManager" finished-at="2022-09-10T17:53:50 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w2a.testcases.BankManagerLoginTest@22d9c961]" started-at="2022-09-10T17:53:52 IST" name="tearDown" finished-at="2022-09-10T17:53:52 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.testcases.BankManagerLoginTest -->
+      <class name="com.w2a.testcases.OpenAccountTest">
+        <test-method signature="verifyOpenAccount(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.OpenAccountTest@782168b7]" started-at="2022-09-10T17:53:51 IST" name="verifyOpenAccount" data-provider="dp" finished-at="2022-09-10T17:53:51 IST" duration-ms="383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Rupee, customer=Raman Arora}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenAccount -->
+        <test-method signature="verifyOpenAccount(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.OpenAccountTest@782168b7]" started-at="2022-09-10T17:53:51 IST" name="verifyOpenAccount" data-provider="dp" finished-at="2022-09-10T17:53:51 IST" duration-ms="241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Dollar, customer=Amit Test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenAccount -->
+      </class> <!-- com.w2a.testcases.OpenAccountTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Practice Framework -->
+</testng-results>
