@@ -43,6 +43,7 @@ public class TestBase {
 	public static SoftAssert softAssert = new SoftAssert();
 	public static String browser;
 
+	//This is to check the CI CD process
 	@BeforeSuite
 	public void setUp() throws FileNotFoundException {
 
